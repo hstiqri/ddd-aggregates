@@ -24,17 +24,11 @@
     <kotlin.version>1.7.10</kotlin.version>
   </properties>
 
-  <scm>
-    <developerConnection>scm:git:https://github.com/capralifecycle/ddd-aggregates.git</developerConnection>
-    <connection>scm:git:https://github.com/capralifecycle/ddd-aggregates.git</connection>
-    <url>https://github.com/capralifecycle/ddd-aggregates</url>
-    <tag>HEAD</tag>
-  </scm>
-
   <distributionManagement>
     <repository>
-      <id>capra-releases</id>
-      <url>https://mvnrepo.capraconsulting.no/content/repositories/capra-releases</url>
+      <id>github</id>
+      <name>GitHub hstiqri Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/hstiqri/ddd-aggregates</url>
     </repository>
   </distributionManagement>
 
@@ -60,7 +54,7 @@
     <!-- Internal Liflig -->
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/capralifecycle/*</url>
+      <url>https://maven.pkg.github.com/hstiqri/*</url>
     </repository>
   </repositories>
 
@@ -180,7 +174,7 @@
     <dependency>
       <groupId>no.liflig</groupId>
       <artifactId>snapshot-test</artifactId>
-      <version>1.20220831.200250</version>
+      <version>1.20220908.072053</version>
       <scope>test</scope>
     </dependency>
 
